@@ -43,11 +43,16 @@ export default {
   },
   onShow () {
     const that = this
-	that.getGreetingContent()
-    that.audioCtx = wx.createInnerAudioContext()
-	that.audioCtx.autoplay=true
-    that.isPlay = true
-    that.getMusicUrl()
+	console.log("onShow")
+  },
+  onReady(){
+	  const that = this
+	  that.getGreetingContent()
+	  that.audioCtx = wx.createInnerAudioContext()
+	  that.audioCtx.autoplay=true
+	  that.isPlay = true
+	  that.getMusicUrl()
+	  console.log("onReady")
   },
 
   methods: {
@@ -58,6 +63,7 @@ export default {
         that.isPlay = false
         tools.showToast('您已暂停音乐播放~')
       } else {
+		  console.log("又播")
         that.audioCtx.play()
         that.isPlay = true
         tools.showToast('背景音乐已开启~')

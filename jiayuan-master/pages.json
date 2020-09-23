@@ -6,9 +6,10 @@
 			"path": "pages/photo/index"
 		}, {
 			"path": "pages/map/index"
-		}, {
-			"path": "pages/message/index"
 		}
+		// , {
+		// 	"path": "pages/message/index"
+		// }
 	],
 	"globalStyle": {
 		"backgroundTextStyle": "light",
@@ -39,14 +40,15 @@
 				"iconPath": "static/images/3-1.png",
 				"selectedIconPath": "static/images/3-2.png",
 				"text": "酒店导航"
-			},
-			
-			{
-				"pagePath": "pages/message/index",
-				"iconPath": "static/images/5-1.png",
-				"selectedIconPath": "static/images/5-2.png",
-				"text": "留言评论"
 			}
+			// ,
+			
+			// {
+			// 	"pagePath": "pages/message/index",
+			// 	"iconPath": "static/images/5-1.png",
+			// 	"selectedIconPath": "static/images/5-2.png",
+			// 	"text": "留言评论"
+			// }
 		]
 	},
 	"requiredBackgroundModes": ["audio"],
