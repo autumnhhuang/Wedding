@@ -185,7 +185,7 @@ export default {
         height 100rpx
         line-height 100rpx
       p
-        font-size 24rpx
+        font-size 32rpx
         height 60rpx
         line-height 60rpx
       .img_footer

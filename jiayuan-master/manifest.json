@@ -77,6 +77,11 @@
     },
     "mp-toutiao" : {
         "usingComponents" : true
+    },
+    "h5" : {
+        "sdkConfigs" : {
+            "maps" : {}
+        }
     }
 }
 /* 5+App特有相关 */

@@ -13,13 +13,14 @@
 	"globalStyle": {
 		"backgroundTextStyle": "light",
 		"navigationBarBackgroundColor": "#fff",
-		"navigationBarTitleText": "This is Our Wedding Invitation",
+		"navigationBarTitleText": "小朱和叶子de婚礼请柬",
 		"navigationBarTextStyle": "black"
 	},
 	"tabBar": {
 		"color": "#ccc",
 		"selectedColor": "#ff4c91",
 		"borderStyle": "white",
+		"fontSize":"30rpx",
 		"backgroundColor": "#ffffff",
 		"list": [{
 				"pagePath": "pages/index/index",
